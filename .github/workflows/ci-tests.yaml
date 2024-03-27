@@ -22,3 +22,9 @@ jobs:
           profile: cover.out
           local-prefix: github.com/jairad26/slug_generator
           threshold-total: 95
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v4.0.1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          slug: jairad26/slug_generator
+          fail_ci_if_error: true
