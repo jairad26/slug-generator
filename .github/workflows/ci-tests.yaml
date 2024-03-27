@@ -1,0 +1,30 @@
+
+name: ci-tests
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - ready_for_review
+jobs:
+  tests:
+    if: github.event.pull_request.draft == false
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run tests with coverage
+        run: go test ./... -coverprofile=cover.out
+      - name: check test coverage
+        uses: vladopajic/go-test-coverage@v2
+        with:
+          profile: cover.out
+          local-prefix: github.com/jairad26/slug_generator
+          threshold-total: 95
+
+          ## when token is not specified (value '') this feature is turend off
+          ## in this example badge is created and committed only for main brach
+          git-token: ${{ github.ref_name == 'main' && secrets.GITHUB_TOKEN || '' }}
+          ## name of branch where badges are stored
+          ## ideally this should be orphan branch (see below how to create this branch)
+          git-branch: badges 
