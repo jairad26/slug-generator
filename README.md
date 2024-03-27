@@ -1,4 +1,4 @@
-# slug-generator
+# slug_generator
 Generate a slug of any length of words, implemented in Go.
 
 ## Installation
