@@ -16,7 +16,7 @@ var (
 		"important", "impossible", "innocent", "inquisitive", "itchy", "jealous", "jolly", "joyous", "kind",
 		"lame", "lively", "lonely", "long", "lovely", "lucky", "magnificent", "misty", "modern", "motionless",
 		"muddy", "mushy", "mysterious", "nasty", "naughty", "nervous", "nice", "nutty", "obedient", "obnoxious",
-		"odd", "old", "open", "outrageous", "outstanding", "panicky", "perfect", "plain",
+		"odd", "old", "open", "outrageous", "outstanding", "panicky", "perfect",
 		"pleasant", "poised", "polite", "poor", "powerful", "precious", "pretty", "prickly", "proud", "puzzled",
 		"quaint", "real", "relieved", "repulsive", "rich", "scary", "selfish", "shiny", "shy", "silly", "sleepy",
 		"slow", "small", "smart", "smelly", "smiling", "smoggy", "smooth", "sore", "sparkling", "special",

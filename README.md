@@ -23,6 +23,7 @@ func main() {
     fmt.Println(slug)
 }
 ```
+You can also pass in your own list of adjectives and nouns as the last two arguments to `NewSlugGenerator`.
 
 ## Slug Logic
 1. A slug must end with a noun.
