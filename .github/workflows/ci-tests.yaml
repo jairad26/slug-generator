@@ -19,7 +19,6 @@ jobs:
         run: go test ./... -coverprofile=cover.out
   coverage:
     if: github.event_name == 'push'
-    needs: tests
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v3
