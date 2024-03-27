@@ -23,5 +23,3 @@ jobs:
           profile: cover.out
           local-prefix: github.com/jairad26/slug_generator
           threshold-total: 95
-          git-token: ${{ secrets.GITHUB_TOKEN }}
-          git-branch: badges
