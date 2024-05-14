@@ -48,7 +48,7 @@ I have none. Do whatever you want with this code.
 
 
 ## Contributing
-Feel free to contribute to this project, I just made it up at 1 am one morning, so there are definitely improvements to be made. Open a PR and I'll review it as soon as possible. Or open an issue if you find a bug or have a feature request.
+Feel free to contribute to this project, there are definitely improvements to be made. Open a PR and I'll review it as soon as possible. Or open an issue if you find a bug or have a feature request.
 
 ## Author
 Jai Radhakrishnan
